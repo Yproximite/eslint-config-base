@@ -6,5 +6,11 @@
   "repository": "https://github.com/Yproximite/eslint-config-base.git",
   "author": "Hugo Alliaume <kocal@live.fr>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "standard-version": "^4.4.0"
+  }
 }
