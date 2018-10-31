@@ -12,5 +12,11 @@
   },
   "devDependencies": {
     "standard-version": "^4.4.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^5.8.0"
   }
 }
