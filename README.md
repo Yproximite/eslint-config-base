@@ -44,5 +44,6 @@ $ yarn
 ```bash
 $ git checkout master
 $ yarn release # increase package.json version, update CHANGELOG.md, create a new git tag, create a new git commit
-$ npm publish && git push --follow-tags
+$ npm publish --access public # specify access, because scoped package are private by default
+$ git push --follow-tags
 ```
