@@ -44,5 +44,5 @@ $ yarn
 ```bash
 $ git checkout master
 $ yarn release # increase package.json version, update CHANGELOG.md, create a new git tag, create a new git commit
-$ yarn publish && git push --follow-tags
+$ npm publish && git push --follow-tags
 ```
