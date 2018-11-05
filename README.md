@@ -1,5 +1,8 @@
 # eslint-config-base
-ESLint base configuration for our projects.
+
+[![Build Status](https://travis-ci.com/Yproximite/eslint-config-base.svg?token=pNBs2oaRpfxdyhqWf28h&branch=master)](https://travis-ci.com/Yproximite/eslint-config-base)
+
+> ESLint base configuration for our projects.
 
 ## Features
 
