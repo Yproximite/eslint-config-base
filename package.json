@@ -10,9 +10,11 @@
   "author": "Hugo Alliaume <kocal@live.fr>",
   "license": "MIT",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version",
+    "lint": "eslint -c index.js 'file-to-lint.js'"
   },
   "devDependencies": {
+    "eslint": "^5.8.0",
     "standard-version": "^4.4.0"
   },
   "dependencies": {
