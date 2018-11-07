@@ -5,6 +5,10 @@ language: node_js
 node_js:
   - 8
 
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+
 cache:
   yarn: true
   directories:
@@ -16,7 +20,10 @@ before_install:
   - npm install -g yarn
 
 install:
-  - yarn
+  - yarn install --frozen-lockfile
 
 script:
   - yarn lint
+
+after_success:
+  - yarn travis-deploy-once "yarn semantic-release"
