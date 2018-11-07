@@ -15,7 +15,6 @@
     "semantic-release": "semantic-release"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/commit-analyzer": "^6.1.0",
     "@semantic-release/github": "^5.2.1",
     "@semantic-release/npm": "^5.0.6",
