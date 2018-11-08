@@ -1,5 +1,7 @@
 # eslint-config-base
 
+
+[![npm (scoped)](https://img.shields.io/npm/v/@yproximite/eslint-config-base.svg)](https://www.npmjs.com/package/@yproximite/eslint-config-base)
 [![Build Status](https://travis-ci.com/Yproximite/eslint-config-base.svg?token=pNBs2oaRpfxdyhqWf28h&branch=master)](https://travis-ci.com/Yproximite/eslint-config-base)
 
 > ESLint base configuration for our projects.
