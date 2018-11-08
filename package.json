@@ -18,7 +18,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@yproximite/semantic-release-preset": "^1.0.0",
+    "@yproximite/semantic-release-preset": "^1.0.1",
     "eslint": "^5.8.0",
     "travis-deploy-once": "^5.0.9",
     "semantic-release": "^15.10.8"
