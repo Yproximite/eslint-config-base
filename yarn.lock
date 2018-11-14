@@ -762,9 +762,9 @@
     defer-to-connect "^1.0.1"
 
 "@yproximite/semantic-release-preset@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@yproximite/semantic-release-preset/-/semantic-release-preset-1.0.1.tgz#e7a948d0064bf5b756766297e0e7423218e18e26"
-  integrity sha512-32MKWFFdamZ8Zgp903uebz3vi8m9fuxuw7PC7k5Ool4gvCr9vBChgYeUURjCNouD/VLT3nfJhhY6riyhis1BVw==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@yproximite/semantic-release-preset/-/semantic-release-preset-1.0.3.tgz#66df8a5232700f49d45ce543b5ea8f6919b2d3e8"
+  integrity sha512-/pYb4ET3tKTDREOsJA22XGSXK3PH2ZF1UHENo0zwUuTJcY/rbgDv9fu2CH2FI502DA96kFYGIuCtOgxcCdCDyg==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/github" "^5.2.1"
