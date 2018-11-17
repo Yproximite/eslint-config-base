@@ -18,10 +18,10 @@
     "access": "public"
   },
   "devDependencies": {
-    "@yproximite/semantic-release-preset": "^1.0.1",
+    "@kocal/semantic-release-preset": "^1.1.0",
     "eslint": "^5.8.0",
-    "travis-deploy-once": "^5.0.9",
-    "semantic-release": "^15.10.8"
+    "semantic-release": "^15.10.8",
+    "travis-deploy-once": "^5.0.9"
   },
   "dependencies": {
     "babel-eslint": "^10.0.1"
