@@ -3,6 +3,7 @@ dist: trusty
 language: node_js
 node_js:
   - 8
+  - node
 
 branches:
   except:
@@ -24,5 +25,10 @@ install:
 script:
   - yarn lint
 
-after_success:
-  - yarn travis-deploy-once "yarn semantic-release"
+jobs:
+  include:
+    - stage: Release
+      if: branch = master AND type = push
+      node_js: node
+      script: yarn semantic-release
+
