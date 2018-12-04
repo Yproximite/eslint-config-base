@@ -8,7 +8,8 @@
 
 ## Features
 
-- Configure ESLint to [parse](https://eslint.org/docs/user-guide/configuring#specifying-parser-options) JavaScript code as ES6 code. 
+- Configure ESLint environments to `browser` and `es6`
+- Configure ESLint to [parse](https://eslint.org/docs/user-guide/configuring#specifying-parser-options) JavaScript code as ES6 code
 
 ## Installation
 
