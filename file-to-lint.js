@@ -26,3 +26,14 @@ const doubleArrayValues = (arr) => arr.map(v => v * 2);
     map.set('json', json);
   });
 })();
+
+switch(true) {
+  case true:
+    console.log('True!');
+    break;
+  case false:
+    console.log('False!');
+    break;
+  default:
+    console.log('Neither true or false!');
+}
