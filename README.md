@@ -10,6 +10,7 @@
 
 - Configure ESLint environments to `browser` and `es6`
 - Configure ESLint to [parse](https://eslint.org/docs/user-guide/configuring#specifying-parser-options) JavaScript code as ES6 code
+- Configure indentation to 2 spaces
 
 ## Installation
 
