@@ -13,9 +13,13 @@
 
 ## Installation
 
-This package is hosted on [GitHub Packages](https://github.com/features/packages), so you must tell to npm/yarn where to download it. You can create a `.npmrc` file with the following content:
+This package is hosted on [GitHub Packages](https://github.com/features/packages), so you must tell to npm/yarn where to download it.
+Please read [Authenticating to GitHub Packages](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages#authenticating-to-github-packages).
+
+You can run `npm login --registry=https://npm.pkg.github.com --scope=@yproximite` **or** create a `.npmrc` file with the following content:
 ```
-@yproximite:registry=https://npm.pkg.github.com
+@yproximite:registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=<access token>
 ```
 
 Then run: 
