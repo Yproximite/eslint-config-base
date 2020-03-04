@@ -1,6 +1,6 @@
 {
   "name": "@yproximite/eslint-config-base",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "ESLint base configuration for our projects",
   "main": "index.js",
   "files": [
@@ -12,6 +12,9 @@
   "scripts": {
     "lint": "eslint -c index.js 'file-to-lint.js'",
     "semantic-release": "semantic-release"
+  },
+  "engines": {
+    "node": ">= 9.0.0"
   },
   "publishConfig": {
     "access": "public"

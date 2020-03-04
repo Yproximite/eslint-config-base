@@ -1,0 +1,28 @@
+name: Release
+
+on:
+    push:
+        branches:
+            - master
+
+env:
+    CI: true
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            -   uses: actions/checkout@v2
+
+            -   name: Install Node.js
+                uses: actions/setup-node@v1
+                with:
+                    node-version: 10.x
+
+            -   run: yarn install --frozen-lockfile
+
+            -   run: yarn semantic-release
+                env:
+                    NPM_TOKEN: ${{ secrets.GH_TOKEN }}
+                    GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
