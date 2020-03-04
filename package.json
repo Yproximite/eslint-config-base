@@ -17,7 +17,8 @@
     "node": ">= 9.0.0"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://npm.pkg.github.com/"
   },
   "devDependencies": {
     "@kocal/semantic-release-preset": "^1.1.0",
