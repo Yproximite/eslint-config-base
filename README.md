@@ -1,8 +1,7 @@
 # eslint-config-base
 
 
-[![npm (scoped)](https://img.shields.io/npm/v/@yproximite/eslint-config-base.svg)](https://www.npmjs.com/package/@yproximite/eslint-config-base)
-[![Build Status](https://travis-ci.com/Yproximite/eslint-config-base.svg?token=pNBs2oaRpfxdyhqWf28h&branch=master)](https://travis-ci.com/Yproximite/eslint-config-base)
+![Node CI](https://github.com/Yproximite/eslint-config-base/workflows/Node%20CI/badge.svg)
 
 > ESLint base configuration for our projects.
 
@@ -14,8 +13,14 @@
 
 ## Installation
 
+This package is hosted on [GitHub Packages](https://github.com/features/packages), so you must tell to npm/yarn where to download it. You can create a `.npmrc` file with the following content:
+```
+@yproximite:registry=https://npm.pkg.github.com
+```
+
+Then run: 
 ```bash
-$ yarn add --dev @yproximite/eslint-config-base eslint^5.8.0 babel-eslint@^10.0.0
+$ yarn add --dev @yproximite/eslint-config-base eslint^6.0.0 babel-eslint@^10.0.0
 ```
 
 ## Usage
@@ -42,4 +47,4 @@ $ yarn
 
 ### Publishing a new release
 
-This is automatically done by Travis and [semantic-release](https://github.com/semantic-release/semantic-release) when you merge a pull request.
+This is automatically done by GitHub Actions and [semantic-release](https://github.com/semantic-release/semantic-release) when you merge a pull request.
