@@ -97,9 +97,9 @@
     to-fast-properties "^2.0.0"
 
 "@kocal/semantic-release-preset@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@kocal/semantic-release-preset/-/semantic-release-preset-2.0.0.tgz#e7bd5e4c2553de488425bf1f769a5c85706e04af"
-  integrity sha512-/NthtHNPOofAtYOWfrtL9vWaLU9XK+uVG7HR30K0b4PUyw/auTyPdW9f2mxuw56+HzW54Aqk3XCdEHnuxNnA2w==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@kocal/semantic-release-preset/-/semantic-release-preset-2.0.1.tgz#189da12960c42c989374b6605f66ff13c5f462d4"
+  integrity sha512-pf2Fyee7EZsyaeN2LFHVtmtj45pepa9+tBX/vD2/HPEPm0w/QPAxJvhSB8RjaFb0bdxpVoIb66pBMfaYNozQ8g==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.1"
     "@semantic-release/github" "^7.0.4"
