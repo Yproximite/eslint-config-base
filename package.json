@@ -23,11 +23,11 @@
   "devDependencies": {
     "@kocal/semantic-release-preset": "^2.0.0",
     "babel-eslint": "^10.0.0",
-    "eslint": "^6.0.1",
+    "eslint": "^7.5.0",
     "semantic-release": "^17.0.4"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
-    "eslint": "^6.0.1"
+    "eslint": "^7.5.0"
   }
 }
