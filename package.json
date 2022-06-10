@@ -24,7 +24,7 @@
     "@kocal/semantic-release-preset": "^2.0.0",
     "babel-eslint": "^10.0.0",
     "eslint": "^7.0.0",
-    "semantic-release": "^17.0.4"
+    "semantic-release": "^19.0.3"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.0",
