@@ -17,10 +17,10 @@ jobs:
                 node-version: [10.x, 12.x, 13.x]
 
         steps:
-            - uses: actions/checkout@v1
+            - uses: actions/checkout@v4
 
             - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v1
+              uses: actions/setup-node@v4
               with:
                   node-version: ${{ matrix.node-version }}
 
@@ -29,7 +29,7 @@ jobs:
               run: echo "::set-output name=dir::$(yarn cache dir)"
 
             - name: Restore yarn cache (if available)
-              uses: actions/cache@v1
+              uses: actions/cache@v4
               with:
                   path: ${{ steps.yarn-cache.outputs.dir }}
                   key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
